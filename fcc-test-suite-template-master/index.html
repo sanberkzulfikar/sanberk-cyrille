@@ -1,34 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      @media (max-width: 28.7em) {
+        html {
+          font-size: 55%;
+        }
+      }
+      #welcome-section {
+        height: 100vh;
+      }
+      #navbar {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+      }
+    </style>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <title>Fork Me! FCC: Test Suite Template</title>
-  <link rel="stylesheet" href="css/style.css" />
-</head>
+  <body>
+    <nav id="navbar">
+      <a href="#projects">Go to Projects</a>
+    </nav>
+    <!-- // WELCOME SECTION STARTS HERE -->
+    <section id="welcome-section">
+      <h1>Hello! We are Developers!</h1>
+    </section>
+    <!-- // WELCOME SECTION ENDS HERE //PROJECTS SECTION STARTS HERE -->
+    <section id="projects">
+      <h2 class="project-tile">Tribute Page Project</h2>
+      <p>these are some of our projects here</p>
+      <a href="https://codepen.io/freeCodeCamp/full/zNqgVx">A Project Link</a>
+    </section>
+    <section id="social-links">
+      <a
+        href="https://www.github.com/sanberkzulfikar"
+        id="profile-link"
+        target="_blank"
+        >Our Github Page</a
+      >
+    </section>
 
-<body>
-  <nav id="navbar">
-    <a href="#projects">Go to Projects</a>
-  </nav>
-  <!-- // WELCOME SECTION STARTS HERE -->
-  <section id="welcome-section">
-    <h1>Hello! We are Developers!</h1>
-  </section>
-  <!-- // WELCOME SECTION ENDS HERE //PROJECTS SECTION STARTS HERE -->
-  <section id="projects">
-    <h2 class="project-tile">Tribute Page Project</h2>
-    <p>these are some of our projects here</p>
-    <a href="https://codepen.io/freeCodeCamp/full/zNqgVx">A Project Link</a>
-  </section>
-  <section id="social-links">
-    <a href="https://www.github.com/sanberkzulfikar" id="profile-link" target="_blank">Our Github Page</a>
-  </section>
-
-
-  <!-- // PROJECTS SECTION ENDS HERE -->
-  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-  <script src="js/index.js"></script>
-</body>
-
+    <!-- // PROJECTS SECTION ENDS HERE -->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="js/index.js"></script>
+  </body>
 </html>
